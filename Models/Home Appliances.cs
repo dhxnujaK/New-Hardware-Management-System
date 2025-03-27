@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace New_Hardware_Management_System.Models
 {
-    class Home_Appliances
+    public class Home_Appliances : item
     {
+        public string ItemName { get; set; }
     }
 }

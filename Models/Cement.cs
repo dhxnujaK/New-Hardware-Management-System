@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace New_Hardware_Management_System.Models
 {
-    class Cement
+    public class Cement : item
     {
+        public string Brand { get; set; } 
+        public string Quality { get; set; } 
+        
+       
     }
+
 }

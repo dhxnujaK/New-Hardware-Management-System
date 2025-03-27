@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace New_Hardware_Management_System.Models
 {
-    internal class item
+    public class item
     {
         public int ItemId { get; set; }
         public string ItemName { get; set; }
