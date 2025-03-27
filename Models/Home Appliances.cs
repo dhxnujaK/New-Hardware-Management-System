@@ -8,6 +8,6 @@ namespace New_Hardware_Management_System.Models
 {
     public class Home_Appliances : item
     {
-        public string ItemName { get; set; }
+        public string? ItemName { get; set; }
     }
 }
