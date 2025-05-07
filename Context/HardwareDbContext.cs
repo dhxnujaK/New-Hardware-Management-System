@@ -21,7 +21,8 @@ namespace New_Hardware_Management_System
         // Configure the SQLite connection
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source=hardware.db"); // SQLite database file
+            var connectionString = "server=localhost;database=HardDataApp;user=root;password=dhanujaK@3036921;";
+            optionsBuilder.UseMySql(connectionString, new MySqlServerVersion(new Version(8, 0, 36)));
         }
     }
 }
