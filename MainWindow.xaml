@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="303*"/>
+            <ColumnDefinition Width="97*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Add Items" HorizontalAlignment="Left" Margin="282,62,0,0" VerticalAlignment="Top" Height="37" Width="133"/>
+        <Button Content="Edit Items" HorizontalAlignment="Left" Margin="282,126,0,0" VerticalAlignment="Top" Height="37" Width="133"/>
+        <Button Content="Delete Items" HorizontalAlignment="Left" Margin="282,0,0,0" VerticalAlignment="Center" Height="37" Width="133"/>
+        <Button Content="Bill Calculator" HorizontalAlignment="Left" Margin="282,272,0,0" VerticalAlignment="Top" Width="133" Height="37"/>
 
     </Grid>
 </Window>

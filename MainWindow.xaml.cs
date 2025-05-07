@@ -19,7 +19,6 @@ namespace New_Hardware_Management_System
         public MainWindow()
         {
             InitializeComponent();
-            DataSeeder.Seed();
         }
     }
 }
